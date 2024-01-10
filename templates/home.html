@@ -1,0 +1,68 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Prediction Project</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #101beb;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            animation: fadeIn 1s ease;
+        }
+
+        h1 {
+            color: #db1144bd;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+            background-color: #0eea75;
+            color: #fff;
+            border-radius: 5px;
+            margin: 10px;
+            transition: background-color 0.3s ease;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Crop Prediction</h1>
+        <a href="/prediction" class="button">Make Prediction</a>
+        <a href="/showdata" class="button">Show Data</a>
+    </div>
+</body>
+</html>
+
